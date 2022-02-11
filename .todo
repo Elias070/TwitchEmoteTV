@@ -1,0 +1,14 @@
+Todo:
+  - Omzetten naar Linux zodat ik op BladeVPS kan draaien voor 24/7 content creation
+  - 5 clips per uur?
+  - 3 clips per video onderwerp / gta 5 just chatting etc?
+
+
+
+Notes:
+echo file output/1193462290/clip_2638/videorender_1650.mp4 >>  mylist.txt
+echo file output/1193462290/clip_2670/videorender_2670.mp4 >>  mylist.txt
+ffmpeg -f concat -i mylist.txt -c copy output.mp4
+
+
+Ander idee is streak van emotes, dus de streek van omegaluls achter elkaar ipv per n sec
